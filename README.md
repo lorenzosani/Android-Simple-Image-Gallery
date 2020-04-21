@@ -1,28 +1,11 @@
-# Android-Simple-Image-Gallery
-A simple implementation of an image gallery app in android
+# Android Image Gallery 🖼
 
-MainActivity displays all folders with images and the number of images it contains <br />
-<br />
-![](https://cdn-images-1.medium.com/max/800/1*EDp_VGFCP9mFgWtYzon1yA.jpeg)   
+This is dark-mode gallery app for Android based on [CodeBoy722/Android-Simple-Image-Gallery](https://github.com/CodeBoy722/Android-Simple-Image-Gallery).
 
-Displays all images in a given folder, in this case "FastSave" <br />
-<br />
-![](https://cdn-images-1.medium.com/max/800/1*BPW6PN1oXPQ7z0sWDsNyLg.jpeg) 
-<br />
+## Tweaks
 
-Image slider/navigator <br />
-![](https://cdn-images-1.medium.com/max/800/1*PHx4xIYzq4Jom9pNAx36yw.jpeg) 
+Most of the modifications to the original version have been made on the layout xml files of the UI.
 
-### [Read the article on Medium](https://android.jlelse.eu/android-simple-image-gallery-30c0f00abe64?source=friends_link&sk=c203004612a1f0d402db9084feca42d4)
+Minor changes have been made to MainActivity.java and PictureFolderAdapter.java
 
-
-
-
-
-
-
-
-
-
-
-
+All modifications have been made using Android Studio 3.6.3
