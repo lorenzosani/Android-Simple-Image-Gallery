@@ -124,11 +124,10 @@ public class MainActivity extends AppCompatActivity implements itemClickListener
         }
 
         //reverse order ArrayList
-       /* ArrayList<imageFolder> reverseFolders = new ArrayList<>();
-
+        ArrayList<imageFolder> reverseFolders = new ArrayList<>();
         for(int i = picFolders.size()-1;i > reverseFolders.size()-1;i--){
             reverseFolders.add(picFolders.get(i));
-        }*/
+        }
 
         return picFolders;
     }
