@@ -16,30 +16,33 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/head"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            app:cardBackgroundColor="@color/skyblue">
+            android:layout_height="72dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="0dp">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|start"
-                android:text="@string/appName"
+                android:layout_marginStart="10dp"
+                android:text="@string/appHeader"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginLeft="10dp"
-                android:layout_marginStart="10dp" />
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
 
             <ImageButton
                 android:id="@+id/menu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center|end"
+                android:layout_gravity="top|end"
                 android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="8dp"
                 android:background="@android:color/transparent"
+                android:paddingTop="16dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
                 android:src="@drawable/ic_action_menu"
                 android:tint="@color/white" />
 
@@ -50,10 +53,10 @@
             android:id="@+id/folderRecycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
-            android:columnWidth="@dimen/folder_column_width"
+            android:layout_below="@id/head"
+            android:background="@color/colorPrimary"
             android:clipToPadding="false"
-            android:layout_below="@id/head">
+            android:columnWidth="@dimen/folder_column_width">
 
             <!--app:fastScrollEnabled="true"
        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"

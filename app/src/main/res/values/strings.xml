@@ -3,4 +3,5 @@
     <string name="folderName">Folder Name</string>
     <string name="appName">Simple Image Gallery</string>
     <string name="empty">No Images on this device</string>
+    <string name="appHeader">Photos</string>
 </resources>
